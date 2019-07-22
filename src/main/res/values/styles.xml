@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OTP.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="OTP.Button.Cancel" parent="android:Widget">
+        <item name="android:background">@drawable/otp_button_style</item>
+        <item name="android:textColor">@color/forecolor_black</item>
+    </style>
+    <style name="OTP.DigitBox" parent="android:Widget">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/forecolor_white</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/otp_digit_box_border_empty</item>
+        <item name="android:ellipsize">start</item>
+    </style>
+</resources>

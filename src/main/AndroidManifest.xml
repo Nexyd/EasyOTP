@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indra.mobile.otp">
+
+    <application>
+        <receiver
+            android:name="com.java.nexyd.otp.receivers.SMSBroadcastReceiver"
+            android:enabled="true"/>
+    </application>
+
+</manifest>

@@ -67,7 +67,7 @@ public class OTPDialog
 
         digits = new EditText[6];
         View view = inflater.inflate(R.layout.otp_dialog, container);
-        Button cancelOTP = view.findViewById(R.id.cancel);
+        Button cancelOTP = view.findViewById(R.id.cancelOTP);
         errorMsg = view.findViewById(R.id.otpErrorMessage);
 
         digits[0] = view.findViewById(R.id.otp_digit_1);

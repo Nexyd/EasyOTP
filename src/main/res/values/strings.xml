@@ -1,6 +1,7 @@
 <resources>
     <string name="codigo_sms">Código SMS</string>
     <string name="button_cancel">Cancelar</string>
+    <string name="button_send">Enviar</string>
     <string name="otp_message">Por razones de seguridad le vamos a enviar un SMS.</string>
     <string name="otp_error_message">Debe ser un código de 8 digitos.</string>
     <string name="waiting_otp">Esperando OTP...</string>
